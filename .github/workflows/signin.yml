@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: 每日签到
+    - name: 发送数据......
       run: |
         curl -s -X POST \
           -H "Content-Type: application/json" \
