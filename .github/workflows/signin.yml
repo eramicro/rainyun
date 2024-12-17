@@ -1,0 +1,19 @@
+name: 每日签到
+
+on:
+  schedule:
+    - cron: '30 23 * * *'
+  workflow_dispatch:
+
+jobs:
+  daily-checkin:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 每日签到
+      run: |
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.RAINYUN_API_KEY }}" \
+          -d '{"task_name": "每日签到"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
