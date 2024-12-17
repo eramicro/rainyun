@@ -3,7 +3,7 @@ name: 每日签到
 on:
   schedule:
     # schedule build every night
-     - cron: "0 0 * * *"
+     - cron: "30 23 * * *"
   workflow_dispatch:
 
 jobs:
