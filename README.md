@@ -7,15 +7,7 @@
 3. 启用Actions后运行一次“每日签到”任务,如果返回"未达成条件"，或者"任务成功"即为正确配置，此后任务会自动定时执行。如果返回需要登录，请检查你的api key是否正确配置。 
 
 ### 宝塔
-  "curl -s -X POST \"
-         " -H "Content-Type: application/json" \"
-         " -H "x-api-key: 此处填你的API" \"
-        "  -d '{"task_name": "每日签到"}' \"
-         " https://api.v2.rainyun.com/user/reward/tasks""
-
-          
-![Uploading image.png…]()
-
+mall2.autoimg.cn/paidmemberdfs/g32/M06/34/4E/autohomecar__ChxkPWdkwnWAYT-dAAETmFRXQag719.jpg
 
 
 
